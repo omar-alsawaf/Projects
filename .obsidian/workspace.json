@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubernetes-goat/DIND/DIND.md",
+                "file": "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/Sensitive Keys in Codebase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DIND"
+              "title": "Sensitive Keys in Codebase"
+            }
+          },
+          {
+            "id": "ab835b659ed674ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes-goat/SSRF/SSRF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSRF"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,31 +203,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "568e0d759051d6c0",
+  "active": "a8fbcda8ca7e8415",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes-goat/DIND/dind.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot_20261002_173245-1.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot_20261002_173245.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot_20261002_173205.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot_20261002_173048.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot From 2026-10-02 17-49-28.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot From 2026-10-02 17-48-45.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot From 2026-10-02 17-48-03.png",
+    "Kubernetes/Kubernetes-goat/SSRF/Screenshot From 2026-10-02 17-47-43.png",
+    "Kubernetes/Kubernetes-goat/SSRF/fill/Screenshot From 2026-10-02 17-49-28.png",
+    "Kubernetes/Kubernetes-goat/SSRF/fill/Screenshot From 2026-10-02 17-48-45.png",
+    "Kubernetes/Kubernetes-goat/SSRF/fill/Screenshot From 2026-10-02 17-48-03.png",
+    "Kubernetes/Kubernetes-goat/SSRF/fill",
+    "Kubernetes/Kubernetes-goat/SSRF/fill.zip",
+    "Kubernetes/Kubernetes-goat/SSRF/index.html.save",
+    "Kubernetes/Kubernetes-goat/SSRF/index.html",
+    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/Sensitive Keys in Codebase.md",
+    "Kubernetes/Kubernetes-goat/SSRF/SSRF.md",
+    "Kubernetes/Kubernetes-goat/SSRF",
     "Kubernetes/Kubernetes-goat/DIND/DIND.md",
-    "Kubernetes/Kubernetes-goat/DIND/sock.png",
-    "Kubernetes/Kubernetes-goat/DIND/s.png",
-    "Kubernetes/Kubernetes-goat/DIND/revshellrecieved.png",
-    "Kubernetes/Kubernetes-goat/DIND/commandinjection.png",
     "Kubernetes/Kubernetes-goat/Setup/Setup.md",
-    "Kubernetes/Kubernetes-goat/Setup/Start.png",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/dumping.png",
     "Kubernetes/DIND",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/exposedgit.png",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/flag.png",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/Writeup.md",
     "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git_dump.zip",
     "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/ziVH7gsl",
-    "Kubernetes/Kubernetes-goat/Setup/Screenshot From 2026-09-30 15-26-21.png",
     "Kubernetes/Kubernetes-goat/Setup",
     "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/views/index.html",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/views",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/main.go",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/go.sum",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/go.mod",
-    "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/app",
     "Kubernetes/Kubernetes-goat/Sensitive keys in codebases/git/README.md"
   ]
 }

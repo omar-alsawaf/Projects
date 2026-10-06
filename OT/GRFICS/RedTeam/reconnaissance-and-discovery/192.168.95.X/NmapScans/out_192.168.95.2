@@ -1,0 +1,22 @@
+# Nmap 7.99 scan initiated Mon Oct  5 11:53:56 2026 as: /usr/lib/nmap/nmap -sC -sV -p 502,8080 --disable-arp-ping -T5 -A -oN out_192.168.95.2 192.168.95.2
+Nmap scan report for 192.168.95.2
+Host is up (0.000081s latency).
+
+PORT     STATE SERVICE VERSION
+502/tcp  open  modbus  Modbus TCP
+8080/tcp open  http    Werkzeug httpd 2.3.7 (Python 3.9.2)
+| http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_Requested resource was /login
+|_http-server-header: Werkzeug/2.3.7 Python/3.9.2
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 6.18 (96%), Linux 4.15 - 5.19 (96%), HP P2000 G3 NAS device (93%), Android 11 (Linux 4.9) (93%), Android 12 (Linux 5.4) (93%), Linux 3.8 (93%), Android 10 - 12 (Linux 4.14 - 4.19) (93%), Linux 6.16 (93%), Linux 3.2 - 4.14 (93%), Linux 5.0 - 5.14 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT     ADDRESS
+1   0.01 ms router.grfics_c-dmz-net (192.168.90.200)
+2   0.05 ms 192.168.95.2
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  5 11:54:40 2026 -- 1 IP address (1 host up) scanned in 44.10 seconds

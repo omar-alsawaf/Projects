@@ -1,0 +1,58 @@
+msf auxiliary(scanner/scada/modbus_banner_grabbing) > set RHOSTS 192.168.95.10-15
+RHOSTS => 192.168.95.10-15
+msf auxiliary(scanner/scada/modbus_banner_grabbing) > run
+[*] 192.168.95.10:502     - Number of Objects: 7
+[+] 192.168.95.10:502     - VendorName: pymodbus
+[+] 192.168.95.10:502     - ProductCode: PM
+[+] 192.168.95.10:502     - Revision: 3.0.0
+[+] 192.168.95.10:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.10:502     - ProductName: pymodbus Server
+[+] 192.168.95.10:502     - ModelName: pymodbus Server
+[+] 192.168.95.10:502     - UserAppName: Feed 1
+[*] Scanned 1 of 6 hosts (16% complete)
+[*] 192.168.95.11:502     - Number of Objects: 7
+[+] 192.168.95.11:502     - VendorName: pymodbus
+[+] 192.168.95.11:502     - ProductCode: PM
+[+] 192.168.95.11:502     - Revision: 3.0.0
+[+] 192.168.95.11:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.11:502     - ProductName: pymodbus Server
+[+] 192.168.95.11:502     - ModelName: pymodbus Server
+[+] 192.168.95.11:502     - UserAppName: Feed 2
+[*] Scanned 2 of 6 hosts (33% complete)
+[*] 192.168.95.12:502     - Number of Objects: 7
+[+] 192.168.95.12:502     - VendorName: pymodbus
+[+] 192.168.95.12:502     - ProductCode: PM
+[+] 192.168.95.12:502     - Revision: 3.0.0
+[+] 192.168.95.12:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.12:502     - ProductName: pymodbus Server
+[+] 192.168.95.12:502     - ModelName: pymodbus Server
+[+] 192.168.95.12:502     - UserAppName: Purge
+[*] Scanned 3 of 6 hosts (50% complete)
+[*] 192.168.95.13:502     - Number of Objects: 7
+[+] 192.168.95.13:502     - VendorName: pymodbus
+[+] 192.168.95.13:502     - ProductCode: PM
+[+] 192.168.95.13:502     - Revision: 3.0.0
+[+] 192.168.95.13:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.13:502     - ProductName: pymodbus Server
+[+] 192.168.95.13:502     - ModelName: pymodbus Server
+[+] 192.168.95.13:502     - UserAppName: Product
+[*] Scanned 4 of 6 hosts (66% complete)
+[*] 192.168.95.14:502     - Number of Objects: 7
+[+] 192.168.95.14:502     - VendorName: pymodbus
+[+] 192.168.95.14:502     - ProductCode: PM
+[+] 192.168.95.14:502     - Revision: 3.0.0
+[+] 192.168.95.14:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.14:502     - ProductName: pymodbus Server
+[+] 192.168.95.14:502     - ModelName: pymodbus Server
+[+] 192.168.95.14:502     - UserAppName: Reactor
+[*] Scanned 5 of 6 hosts (83% complete)
+[*] 192.168.95.15:502     - Number of Objects: 7
+[+] 192.168.95.15:502     - VendorName: pymodbus
+[+] 192.168.95.15:502     - ProductCode: PM
+[+] 192.168.95.15:502     - Revision: 3.0.0
+[+] 192.168.95.15:502     - VendorUrl: http://github.com/pymodbus-dev/pymodbus/
+[+] 192.168.95.15:502     - ProductName: pymodbus Server
+[+] 192.168.95.15:502     - ModelName: pymodbus Server
+[+] 192.168.95.15:502     - UserAppName: Analyzer
+[*] Scanned 6 of 6 hosts (100% complete)
+[*] Auxiliary module execution completed

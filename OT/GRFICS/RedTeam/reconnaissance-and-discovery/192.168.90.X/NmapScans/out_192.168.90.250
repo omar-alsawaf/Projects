@@ -1,0 +1,91 @@
+# Nmap 7.99 scan initiated Mon Oct  5 11:16:20 2026 as: /usr/lib/nmap/nmap -sC -sV -p 2222,7010,7012,8022,8888 --disable-arp-ping -T5 -A -oN out_192.168.90.250 192.168.90.250
+Nmap scan report for caldera.grfics_c-dmz-net (192.168.90.250)
+Host is up (0.000055s latency).
+
+PORT     STATE SERVICE       VERSION
+2222/tcp open  EtherNetIP-1?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, NCP, NULL, NotesRPC, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, WMSRequest, X11Probe, afp, giop, ms-sql-s, oracle-tns: 
+|     220 welcome
+|   FourOhFourRequest, GetRequest: 
+|     220 welcome
+|     'get' not implemented
+|     implemented
+|   GenericLines: 
+|     220 welcome
+|     implemented
+|     implemented
+|   HTTPOptions, RTSPRequest: 
+|     220 welcome
+|     'options' not implemented
+|     implemented
+|   Help: 
+|     220 welcome
+|     'help' not implemented
+|   LPDString: 
+|     220 welcome
+|     default' not implemented
+|   SIPOptions: 
+|     220 welcome
+|     'options' not implemented
+|     'via:' not implemented
+|     'from:' not implemented
+|     'to:' not implemented
+|     'call-id:' not implemented
+|     'cseq:' not implemented
+|     'max-forwards:' not implemented
+|     'content-length:' not implemented
+|     'contact:' not implemented
+|     'accept:' not implemented
+|_    implemented
+7010/tcp open  ups-onlinet?
+7012/tcp open  talon-engine?
+8022/tcp open  ssh           AsyncSSH sshd 2.20.0 (protocol 2.0)
+| ssh-hostkey: 
+|_  2048 68:b2:08:6a:9f:a8:ef:1e:ac:6f:aa:ba:7d:8b:fd:9c (RSA)
+8888/tcp open  http          aiohttp 3.10.11 (Python 3.11)
+|_http-server-header: Python/3.11 aiohttp/3.10.11
+|_http-title: Magma | Caldera
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port2222-TCP:V=7.99%I=7%D=10/5%Time=6AC3870B%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,D,"220\x20welcome\r\n")%r(GenericLines,3D,"220\x20welcome\r\n502\x20
+SF:''\x20not\x20implemented\r\n502\x20''\x20not\x20implemented\r\n")%r(Get
+SF:Request,40,"220\x20welcome\r\n502\x20'get'\x20not\x20implemented\r\n502
+SF:\x20''\x20not\x20implemented\r\n")%r(HTTPOptions,44,"220\x20welcome\r\n
+SF:502\x20'options'\x20not\x20implemented\r\n502\x20''\x20not\x20implement
+SF:ed\r\n")%r(RTSPRequest,44,"220\x20welcome\r\n502\x20'options'\x20not\x2
+SF:0implemented\r\n502\x20''\x20not\x20implemented\r\n")%r(RPCCheck,D,"220
+SF:\x20welcome\r\n")%r(DNSVersionBindReqTCP,D,"220\x20welcome\r\n")%r(DNSS
+SF:tatusRequestTCP,D,"220\x20welcome\r\n")%r(Help,29,"220\x20welcome\r\n50
+SF:2\x20'help'\x20not\x20implemented\r\n")%r(SSLSessionReq,D,"220\x20welco
+SF:me\r\n")%r(TerminalServerCookie,D,"220\x20welcome\r\n")%r(TLSSessionReq
+SF:,D,"220\x20welcome\r\n")%r(Kerberos,D,"220\x20welcome\r\n")%r(SMBProgNe
+SF:g,D,"220\x20welcome\r\n")%r(X11Probe,D,"220\x20welcome\r\n")%r(FourOhFo
+SF:urRequest,40,"220\x20welcome\r\n502\x20'get'\x20not\x20implemented\r\n5
+SF:02\x20''\x20not\x20implemented\r\n")%r(LPDString,30,"220\x20welcome\r\n
+SF:502\x20'\\x01default'\x20not\x20implemented\r\n")%r(LDAPSearchReq,D,"22
+SF:0\x20welcome\r\n")%r(LDAPBindReq,D,"220\x20welcome\r\n")%r(SIPOptions,1
+SF:60,"220\x20welcome\r\n502\x20'options'\x20not\x20implemented\r\n502\x20
+SF:'via:'\x20not\x20implemented\r\n502\x20'from:'\x20not\x20implemented\r\
+SF:n502\x20'to:'\x20not\x20implemented\r\n502\x20'call-id:'\x20not\x20impl
+SF:emented\r\n502\x20'cseq:'\x20not\x20implemented\r\n502\x20'max-forwards
+SF::'\x20not\x20implemented\r\n502\x20'content-length:'\x20not\x20implemen
+SF:ted\r\n502\x20'contact:'\x20not\x20implemented\r\n502\x20'accept:'\x20n
+SF:ot\x20implemented\r\n502\x20''\x20not\x20implemented\r\n")%r(LANDesk-RC
+SF:,D,"220\x20welcome\r\n")%r(TerminalServer,D,"220\x20welcome\r\n")%r(NCP
+SF:,D,"220\x20welcome\r\n")%r(NotesRPC,D,"220\x20welcome\r\n")%r(JavaRMI,D
+SF:,"220\x20welcome\r\n")%r(WMSRequest,D,"220\x20welcome\r\n")%r(oracle-tn
+SF:s,D,"220\x20welcome\r\n")%r(ms-sql-s,D,"220\x20welcome\r\n")%r(afp,D,"2
+SF:20\x20welcome\r\n")%r(giop,D,"220\x20welcome\r\n");
+MAC Address: BA:52:B1:C2:6A:73 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Android 11 (Linux 4.9) (93%), Android 12 (Linux 5.4) (93%), Linux 3.8 (93%), Android 10 - 12 (Linux 4.14 - 4.19) (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 6.18 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.05 ms caldera.grfics_c-dmz-net (192.168.90.250)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  5 11:19:16 2026 -- 1 IP address (1 host up) scanned in 175.10 seconds

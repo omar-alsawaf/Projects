@@ -1,0 +1,24 @@
+# Nmap 7.99 scan initiated Mon Oct  5 20:56:26 2026 as: /usr/lib/nmap/nmap -sC -sV -p 53,5000 --disable-arp-ping -T5 -A -oN out 192.168.90.1
+Nmap scan report for 192.168.90.1
+Host is up (0.000067s latency).
+
+PORT     STATE SERVICE VERSION
+53/tcp   open  domain  dnsmasq 2.90
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.90
+5000/tcp open  http    Werkzeug httpd 2.2.2 (Python 3.11.2)
+| http-title: Login \xE2\x80\x93 Fortiphyd Logic
+|_Requested resource was /login?next=%2F
+|_http-server-header: Werkzeug/2.2.2 Python/3.11.2
+MAC Address: 6E:96:47:F2:C3:A7 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Linux 6.18 (94%), Android 11 (Linux 4.9) (93%), Android 12 (Linux 5.4) (93%), Linux 3.8 (93%), Android 10 - 12 (Linux 4.14 - 4.19) (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.07 ms 192.168.90.1
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  5 20:56:45 2026 -- 1 IP address (1 host up) scanned in 18.21 seconds
